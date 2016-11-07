@@ -1,1 +1,9 @@
 C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\bin\Debug\Cripto-Grain.exe.config
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\bin\Debug\Cripto-Grain.exe
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\bin\Debug\Cripto-Grain.pdb
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.csprojResolveAssemblyReference.cache
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto_Grain.frmGrain.resources
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto_Grain.Properties.Resources.resources
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.csproj.GenerateResource.Cache
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.exe
+C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.pdb
