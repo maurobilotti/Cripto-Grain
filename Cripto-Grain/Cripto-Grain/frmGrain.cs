@@ -36,6 +36,11 @@ namespace Cripto_Grain
         private void btnDescrifrar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void frmGrain_Load(object sender, EventArgs e)
+        {
+
         }      
     }
 }

@@ -33,6 +33,7 @@
             this.btnCifrar = new System.Windows.Forms.Button();
             this.btnDescrifrar = new System.Windows.Forms.Button();
             this.fileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.txtPath = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picImg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,9 +53,9 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.picImg.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.picImg.Location = new System.Drawing.Point(13, 42);
+            this.picImg.Location = new System.Drawing.Point(12, 71);
             this.picImg.Name = "picImg";
-            this.picImg.Size = new System.Drawing.Size(807, 466);
+            this.picImg.Size = new System.Drawing.Size(807, 437);
             this.picImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.picImg.TabIndex = 1;
             this.picImg.TabStop = false;
@@ -83,12 +84,21 @@
             // 
             this.fileDialog.FileName = "file";
             // 
+            // txtPath
+            // 
+            this.txtPath.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.txtPath.Location = new System.Drawing.Point(13, 45);
+            this.txtPath.Name = "txtPath";
+            this.txtPath.Size = new System.Drawing.Size(489, 20);
+            this.txtPath.TabIndex = 4;
+            // 
             // frmGrain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(832, 520);
+            this.Controls.Add(this.txtPath);
             this.Controls.Add(this.btnDescrifrar);
             this.Controls.Add(this.btnCifrar);
             this.Controls.Add(this.picImg);
@@ -96,8 +106,10 @@
             this.Name = "frmGrain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Grain Stream Cipher";
+            this.Load += new System.EventHandler(this.frmGrain_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picImg)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -108,6 +120,7 @@
         private System.Windows.Forms.Button btnCifrar;
         private System.Windows.Forms.Button btnDescrifrar;
         private System.Windows.Forms.OpenFileDialog fileDialog;
+        private System.Windows.Forms.TextBox txtPath;
     }
 }
 

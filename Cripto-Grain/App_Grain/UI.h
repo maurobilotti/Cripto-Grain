@@ -46,7 +46,8 @@ namespace App_Grain {
 	private: System::Windows::Forms::PictureBox^  pictureBox;
 	private: System::Windows::Forms::Button^  btnEncrypt;
 	private: System::Windows::Forms::Button^  btnDecrypt;
-	private: System::Windows::Forms::Label^  lblTest;
+	private: System::Windows::Forms::TextBox^  txtPath;
+
 
 	protected:
 
@@ -68,7 +69,7 @@ namespace App_Grain {
 			this->pictureBox = (gcnew System::Windows::Forms::PictureBox());
 			this->btnEncrypt = (gcnew System::Windows::Forms::Button());
 			this->btnDecrypt = (gcnew System::Windows::Forms::Button());
-			this->lblTest = (gcnew System::Windows::Forms::Label());
+			this->txtPath = (gcnew System::Windows::Forms::TextBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -88,9 +89,9 @@ namespace App_Grain {
 				| System::Windows::Forms::AnchorStyles::Left)
 				| System::Windows::Forms::AnchorStyles::Right));
 			this->pictureBox->BackColor = System::Drawing::SystemColors::ControlDark;
-			this->pictureBox->Location = System::Drawing::Point(13, 43);
+			this->pictureBox->Location = System::Drawing::Point(13, 70);
 			this->pictureBox->Name = L"pictureBox";
-			this->pictureBox->Size = System::Drawing::Size(1056, 537);
+			this->pictureBox->Size = System::Drawing::Size(1056, 510);
 			this->pictureBox->TabIndex = 1;
 			this->pictureBox->TabStop = false;
 			// 
@@ -112,22 +113,22 @@ namespace App_Grain {
 			this->btnDecrypt->TabIndex = 3;
 			this->btnDecrypt->Text = L"Decrypt";
 			this->btnDecrypt->UseVisualStyleBackColor = true;
+			this->btnDecrypt->Click += gcnew System::EventHandler(this, &UI::btnDecrypt_Click);
 			// 
-			// lblTest
+			// txtPath
 			// 
-			this->lblTest->AutoSize = true;
-			this->lblTest->Location = System::Drawing::Point(296, 13);
-			this->lblTest->Name = L"lblTest";
-			this->lblTest->Size = System::Drawing::Size(35, 13);
-			this->lblTest->TabIndex = 4;
-			this->lblTest->Text = L"label1";
+			this->txtPath->BackColor = System::Drawing::SystemColors::ActiveCaption;
+			this->txtPath->Location = System::Drawing::Point(13, 44);
+			this->txtPath->Name = L"txtPath";
+			this->txtPath->Size = System::Drawing::Size(481, 20);
+			this->txtPath->TabIndex = 4;
 			// 
 			// UI
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->ClientSize = System::Drawing::Size(1081, 592);
-			this->Controls->Add(this->lblTest);
+			this->Controls->Add(this->txtPath);
 			this->Controls->Add(this->btnDecrypt);
 			this->Controls->Add(this->btnEncrypt);
 			this->Controls->Add(this->pictureBox);
@@ -155,13 +156,28 @@ namespace App_Grain {
 	{
 		bmpInfoHeader header;
 		char *body = NULL;
-		String^ dirRaw = fileDialog->FileName;
+		String^ dirRaw = txtPath->Text;
 		IntPtr tmpHandle = Marshal::StringToHGlobalAnsi(dirRaw);
-		/*char *dir = static_cast<char*>(tmpHandle.ToPointer());*/
-		char* dir = "C:\\Users\\a0717016\\Desktop\\2016-10-27 12_43_05-K&K Insurance - Home.bmp";
+		char *dir = static_cast<char*>(tmpHandle.ToPointer());
+		/*char* dir = "C:\\Users\\a0717016\\Desktop\\test.bmp";*/
+		//char* dir = txtPath->Text;
 		abrir_imagen(dir, &header, &body);
+
 		encriptar_imagen(dir, body, header);
 	}
 
-	};
+	private: System::Void btnDecrypt_Click(System::Object^  sender, System::EventArgs^  e) 	
+	{
+		bmpInfoHeader header;
+		char *body = NULL;
+		String^ dirRaw = txtPath->Text;
+		IntPtr tmpHandle = Marshal::StringToHGlobalAnsi(dirRaw);
+		char *dir = static_cast<char*>(tmpHandle.ToPointer());
+		/*char* dir = "C:\\Users\\a0717016\\Desktop\\test.bmp";*/
+		//char* dir = txtPath->Text;
+		abrir_imagen(dir, &header, &body);
+
+		desencriptar_imagen(dir, body, header);
+	}
+};
 }

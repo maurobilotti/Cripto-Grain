@@ -9,7 +9,8 @@ void encriptar_imagen(char* dir, char *plaintext, bmpInfoHeader header) {
 		IV[12] = { 0x01, 0x23, 0x45, 0x67, 0x89, 0xab, 0xcd, 0xef, 0x12, 0x34, 0x56, 0x78 };
 
 	u32 msglen = header.imgsize;
-	char* ciphertext = malloc(sizeof(msglen + 1));
+	char* ciphertext = malloc(sizeof(char) * msglen);
+	//char ciphertext[2411712];
 	ECRYPT_init();
 	ECRYPT_keysetup(&ctx, key, 128, 96);
 	ECRYPT_ivsetup(&ctx, IV);
