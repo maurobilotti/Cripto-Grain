@@ -7,3 +7,11 @@ C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debu
 C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.csproj.GenerateResource.Cache
 C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.exe
 C:\Users\mauro\OneDrive\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.pdb
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\bin\Debug\Cripto-Grain.exe.config
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\bin\Debug\Cripto-Grain.exe
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\bin\Debug\Cripto-Grain.pdb
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto_Grain.frmGrain.resources
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto_Grain.Properties.Resources.resources
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.csproj.GenerateResource.Cache
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.exe
+C:\Projects\Cripto-Grain\Cripto-Grain\Cripto-Grain\obj\Debug\Cripto-Grain.pdb
