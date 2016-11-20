@@ -1,6 +1,6 @@
 #include "main.h"
-#include "ecrypt-sync.h"
-#include "bpm-file.h"
+#include "Grain128/ecrypt-sync.h"
+#include "Grain128/bpm-file.h"
 
 void encriptar_imagen(char* dir, char *plaintext, bmpInfoHeader header) {
 

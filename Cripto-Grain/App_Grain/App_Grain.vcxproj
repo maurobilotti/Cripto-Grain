@@ -87,12 +87,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="bpm-file.c" />
-    <ClCompile Include="ecrypt-sync.c" />
-    <ClCompile Include="grain128.c" />
+    <ClCompile Include="Grain128\bpm-file.c" />
+    <ClCompile Include="Grain128\ecrypt-sync.c" />
+    <ClCompile Include="Grain128\grain128.c" />
+    <ClCompile Include="Grain128\testvectors.c" />
     <ClCompile Include="main-old.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="testvectors.c" />
     <ClCompile Include="UI.cpp">
       <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</CompileAsManaged>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -111,13 +111,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bpm-file.h" />
-    <ClInclude Include="ecrypt-config.h" />
-    <ClInclude Include="ecrypt-machine.h" />
-    <ClInclude Include="ecrypt-portable.h" />
-    <ClInclude Include="ecrypt-sync.h" />
-    <ClInclude Include="Grain.h" />
-    <ClInclude Include="main.h" />
+    <ClInclude Include="Grain128\bpm-file.h" />
+    <ClInclude Include="Grain128\ecrypt-config.h" />
+    <ClInclude Include="Grain128\ecrypt-machine.h" />
+    <ClInclude Include="Grain128\ecrypt-portable.h" />
+    <ClInclude Include="Grain128\ecrypt-sync.h" />
+    <ClInclude Include="Grain128\Grain.h" />
     <ClInclude Include="UI.h">
       <FileType>CppForm</FileType>
     </ClInclude>

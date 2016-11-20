@@ -30,22 +30,22 @@
     <ClCompile Include="UI.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="bpm-file.c">
-      <Filter>Source Files\Grain128</Filter>
-    </ClCompile>
-    <ClCompile Include="ecrypt-sync.c">
-      <Filter>Source Files\Grain128</Filter>
-    </ClCompile>
-    <ClCompile Include="grain128.c">
-      <Filter>Source Files\Grain128</Filter>
-    </ClCompile>
     <ClCompile Include="main.c">
       <Filter>Source Files\Grain128</Filter>
     </ClCompile>
     <ClCompile Include="main-old.c">
       <Filter>Source Files\Grain128</Filter>
     </ClCompile>
-    <ClCompile Include="testvectors.c">
+    <ClCompile Include="Grain128\bpm-file.c">
+      <Filter>Source Files\Grain128</Filter>
+    </ClCompile>
+    <ClCompile Include="Grain128\ecrypt-sync.c">
+      <Filter>Source Files\Grain128</Filter>
+    </ClCompile>
+    <ClCompile Include="Grain128\grain128.c">
+      <Filter>Source Files\Grain128</Filter>
+    </ClCompile>
+    <ClCompile Include="Grain128\testvectors.c">
       <Filter>Source Files\Grain128</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,25 +53,22 @@
     <ClInclude Include="UI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="bpm-file.h">
+    <ClInclude Include="Grain128\bpm-file.h">
       <Filter>Header Files\Grain128</Filter>
     </ClInclude>
-    <ClInclude Include="ecrypt-config.h">
+    <ClInclude Include="Grain128\ecrypt-config.h">
       <Filter>Header Files\Grain128</Filter>
     </ClInclude>
-    <ClInclude Include="ecrypt-machine.h">
+    <ClInclude Include="Grain128\ecrypt-machine.h">
       <Filter>Header Files\Grain128</Filter>
     </ClInclude>
-    <ClInclude Include="ecrypt-portable.h">
+    <ClInclude Include="Grain128\ecrypt-portable.h">
       <Filter>Header Files\Grain128</Filter>
     </ClInclude>
-    <ClInclude Include="ecrypt-sync.h">
+    <ClInclude Include="Grain128\ecrypt-sync.h">
       <Filter>Header Files\Grain128</Filter>
     </ClInclude>
-    <ClInclude Include="Grain.h">
-      <Filter>Header Files\Grain128</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
+    <ClInclude Include="Grain128\Grain.h">
       <Filter>Header Files\Grain128</Filter>
     </ClInclude>
   </ItemGroup>
