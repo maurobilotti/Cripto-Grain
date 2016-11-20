@@ -138,7 +138,7 @@ void ECRYPT_encrypt_bytes(
 	for (i=0;i<msglen;++i) {
 		k=0;
 		for (j=0;j<8;++j) {
-			k|=(grain_keystream(ctx)<<j);
+			k |= (grain_keystream(ctx)<<j);
 		}
 		ciphertext[i]=plaintext[i]^k;
 	}

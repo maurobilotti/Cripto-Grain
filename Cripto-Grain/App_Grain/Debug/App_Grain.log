@@ -1,20 +1,5 @@
-﻿Build started 11/10/2016 12:47:52 AM.
-     1>Project "C:\Projects\Cripto-Grain\Cripto-Grain\App_Grain\App_Grain.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib UI.cpp
-         UI.cpp
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Projects\Cripto-Grain\Cripto-Grain\Debug\App_Grain.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\App_Grain.UI.resources /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Projects\Cripto-Grain\Cripto-Grain\Debug\App_Grain.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"Main" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Projects\Cripto-Grain\Cripto-Grain\Debug\App_Grain.lib" /MACHINE:X86 "Debug\bpm-file.obj"
-         "Debug\ecrypt-sync.obj"
-         Debug\Grain.obj
-         Debug\grain128.obj
-         "Debug\main-old.obj"
-         Debug\main.obj
-         Debug\testvectors.obj
-         Debug\UI.obj
-         App_Grain.vcxproj -> C:\Projects\Cripto-Grain\Cripto-Grain\Debug\App_Grain.exe
-     1>Done Building Project "C:\Projects\Cripto-Grain\Cripto-Grain\App_Grain\App_Grain.vcxproj" (Build target(s)).
+﻿Build started 11/20/2016 4:17:39 PM.
 
 Build succeeded.
 
-Time Elapsed 00:00:01.55
+Time Elapsed 00:00:00.02

@@ -89,7 +89,6 @@
   <ItemGroup>
     <ClCompile Include="bpm-file.c" />
     <ClCompile Include="ecrypt-sync.c" />
-    <ClCompile Include="Grain.cpp" />
     <ClCompile Include="grain128.c" />
     <ClCompile Include="main-old.c" />
     <ClCompile Include="main.c" />

@@ -13,31 +13,40 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Grain128">
+      <UniqueIdentifier>{6ddd9a30-11a3-40bc-b900-fef74db7a461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Grain128">
+      <UniqueIdentifier>{a9281827-ac1b-41c3-9d4f-cf56275449b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GrainV1">
+      <UniqueIdentifier>{609e503b-6462-4988-a00a-82d6de758a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GrainV1">
+      <UniqueIdentifier>{23d46bea-a137-4eb1-97c7-a4b94389c6a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="UI.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="Grain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="bpm-file.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Grain128</Filter>
     </ClCompile>
     <ClCompile Include="ecrypt-sync.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Grain128</Filter>
     </ClCompile>
     <ClCompile Include="grain128.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="testvectors.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="main-old.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Grain128</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Grain128</Filter>
+    </ClCompile>
+    <ClCompile Include="main-old.c">
+      <Filter>Source Files\Grain128</Filter>
+    </ClCompile>
+    <ClCompile Include="testvectors.c">
+      <Filter>Source Files\Grain128</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -45,25 +54,25 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="bpm-file.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
     <ClInclude Include="ecrypt-config.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
     <ClInclude Include="ecrypt-machine.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
     <ClInclude Include="ecrypt-portable.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
     <ClInclude Include="ecrypt-sync.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
     <ClInclude Include="Grain.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
     <ClInclude Include="main.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Grain128</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
